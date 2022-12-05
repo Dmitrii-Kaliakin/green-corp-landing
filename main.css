@@ -271,7 +271,7 @@ button {
   justify-content: center;
 }
 .promo__image {
-  background-image: url(/img/promo.jpg);
+  background-image: url(/img/promo.png);
   background-size: 100% 100%;
   padding: 160px 60px;
   width: 50%;
