@@ -51,14 +51,39 @@
     height: 75px;
   }
 
-  .features {
-    background-color: #fff;
+  section.features {
     padding: 50px 10px;
   }
+  #features .features__feedback {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .features__feedback-right {
+    flex-direction: column;
+  }
+  .features__feedback .features__feedback-left h2 {
+    font-size: 36px;
+  }
+  .features__feedback-right .features__box h3 {
+    font-size: 36px;
+  }
 
-  .cards {
-    display: grid;
+  .features .cards {
     grid-template-columns: auto;
+    gap: 50px;
+  }
+  .promo {
+    flex-direction: column-reverse;
+  }
+  .features__feedback-right .features__box {
+    margin: 0 0 30px 0;
+  }
+  .promo .promo__image {
+    width: 100%;
+    height: 500px;
+  }
+  .promo .promo__right {
+    padding: 50px 10px;
   }
 
   .form {
@@ -82,6 +107,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: #213053;
   margin: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -248,7 +274,7 @@ button {
   color: #fff;
   border-radius: 25px;
 }
-.features__box h3 {
+.features__feedback-right h3 {
   padding-bottom: 20px;
   font-size: 48px;
 }
@@ -273,13 +299,12 @@ button {
 .promo__image {
   background-image: url("./img/promo.png");
   background-size: 100% 100%;
-  padding: 160px 60px;
+  flex-shrink: 0;
   width: 50%;
 }
 .promo__right {
   background-color: #dd5f26;
   padding: 160px 60px;
-  width: 50%;
 }
 .promo__card {
   background-color: #fff;
@@ -350,24 +375,25 @@ button {
 }
 
 .form label {
-  font: size 18px;
-  font-weight: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .form input,
 .form select {
-  font-style: 18px;
+  font-size: 18px;
   color: #213053;
   height: 60px;
-  padding: 20px 20px;
+  padding: 0px 20px;
   border-radius: 15px;
   border: none;
 }
 
 .form__submit {
-  font-style: 18px;
+  font-size: 18px;
   font-weight: 600;
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 select {
