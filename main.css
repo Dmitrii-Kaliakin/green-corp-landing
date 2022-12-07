@@ -186,11 +186,11 @@ button {
   background: url("img/back.png") no-repeat;
   background-position: center;
   background-size: cover;
-  font-size: 70px;
-  line-height: 76px;
 }
 
 .about h1 {
+  font-size: 70px;
+  line-height: 76px;
 }
 
 .about p {
