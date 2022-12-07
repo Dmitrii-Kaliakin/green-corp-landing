@@ -24,7 +24,7 @@
     padding: 10px;
   }
 
-  .header__logo {
+  .logomob {
     height: 20px;
   }
 
@@ -32,7 +32,7 @@
     margin-right: 10px;
   }
 
-  .about {
+  .aboutmob {
     flex-direction: column-reverse;
     padding: 50px 10px;
   }
@@ -42,11 +42,11 @@
     line-height: 40px;
   }
 
-  .about__image {
+  .about__images .about__image {
     width: 280px;
   }
 
-  .about__sun-image {
+  .about__images .about__sun-image {
     width: 75px;
     height: 75px;
   }
@@ -181,11 +181,11 @@ button {
   background: url("img/back.png") no-repeat;
   background-position: center;
   background-size: cover;
+  font-size: 70px;
+  line-height: 76px;
 }
 
 .about h1 {
-  font-size: 70px;
-  line-height: 76px;
 }
 
 .about p {
