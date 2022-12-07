@@ -37,7 +37,7 @@
     padding: 50px 10px;
   }
 
-  .about h1 {
+  .about .about__info h1 {
     font-size: 36px;
     line-height: 40px;
   }
@@ -188,7 +188,7 @@ button {
   background-size: cover;
 }
 
-.about h1 {
+.about__info h1 {
   font-size: 70px;
   line-height: 76px;
 }
