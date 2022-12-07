@@ -102,6 +102,11 @@
     flex-direction: column;
   }
 }
+@media (max-width: 400px) {
+  .header__controls a {
+    display: none;
+  }
+}
 
 body {
   font-family: "Raleway", sans-serif;
